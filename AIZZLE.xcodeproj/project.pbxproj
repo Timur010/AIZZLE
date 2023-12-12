@@ -11,6 +11,7 @@
 		39EB49AF2B29070300717B2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB49AE2B29070300717B2F /* ContentView.swift */; };
 		39EB49B12B29070400717B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EB49B02B29070400717B2F /* Assets.xcassets */; };
 		39EB49B42B29070400717B2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EB49B32B29070400717B2F /* Preview Assets.xcassets */; };
+		39EB49BB2B2907B600717B2F /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB49BA2B2907B600717B2F /* Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		39EB49AE2B29070300717B2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39EB49B02B29070400717B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39EB49B32B29070400717B2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39EB49BA2B2907B600717B2F /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				39EB49AC2B29070300717B2F /* AIZZLEApp.swift */,
 				39EB49AE2B29070300717B2F /* ContentView.swift */,
+				39EB49BA2B2907B600717B2F /* Extention.swift */,
 				39EB49B02B29070400717B2F /* Assets.xcassets */,
 				39EB49B22B29070400717B2F /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39EB49AF2B29070300717B2F /* ContentView.swift in Sources */,
+				39EB49BB2B2907B600717B2F /* Extention.swift in Sources */,
 				39EB49AD2B29070300717B2F /* AIZZLEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Timur.AIZZLE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIZZLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Timur.AIZZLE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIZZLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

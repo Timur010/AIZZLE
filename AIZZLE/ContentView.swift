@@ -1,21 +1,35 @@
-//
-//  ContentView.swift
-//  AIZZLE
-//
-//  Created by Timur Kadiev on 13.12.2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            LinearGradient(colors: [Color.redGradientColor, Color.blackGradientColor], startPoint: .top, endPoint: .bottom)
+            VStack {
+                Spacer()
+                Image("logo")
+                    .resizable()
+                    .frame(width: 240, height: 240)
+                Text("AIZZLE")
+                    .font(.title)
+                    .foregroundStyle(Color.white)
+                    .bold()
+                Spacer()
+                
+                Button {
+                    
+                } label: {
+                    Text("Играть")
+                        .padding(.horizontal, 84)
+                        .padding(.vertical, 17)
+                        .foregroundStyle(Color.white)
+                        .background(Color.green.cornerRadius(24))
+                        
+                }
+                Spacer()
+            }
+            
         }
-        .padding()
+        .ignoresSafeArea()
     }
 }
 
